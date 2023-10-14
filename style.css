@@ -1,0 +1,51 @@
+body,  h2, p {
+    margin: 0;
+    padding: 0;
+   color:rgb(30, 23, 148)
+}
+h1{
+    
+        font-size: 36px;            
+        font-weight: bold;          
+        color: #333;                
+        text-align: center;        
+        margin: 20px 0;             
+        text-transform: uppercase;  
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+
+}
+
+/* Set a background image or color for the app */
+body {
+    background-image: url(https://www.pixground.com/wp-content/uploads/2023/08/Clouds-Meet-The-Sea-AI-Generated-4K-Wallpaper-2.jpg);
+    background-size: 100%;
+    background-position:;
+    background-repeat: no-repeat;
+    background-color: #2e3a4b;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.button:hover {
+    background-color: #1dc018;  /* Change the background color on hover */
+}
+.button {
+    display: inline-block;
+    padding: 5px 10px;           /* Adjust padding to change button size */
+    background-color: #112636;    /* Set the button background color */
+    color: #fff;                 /* Set the text color */
+    font-size: 12px;             /* Adjust the font size */
+    font-weight: bold;           /* Make the text bold */
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;          /* Add rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;  /* Add a smooth color transition on hover */
+}
